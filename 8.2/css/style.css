@@ -1,0 +1,57 @@
+.registration-form
+{
+    width: 450px;
+    height: 305px;
+    background-color: #0690cf;
+    border: 3px solid #0075b2;
+    border-right: 7px solid #0075b2;
+    position: relative;
+}
+#header-form-registration
+{
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+hr
+{
+    color: white;
+}
+.text-label
+{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+#password-block, #repeat-password-block
+{
+    float: left;
+}
+#e-mail-block, #password-block, #repeat-password-block, #submit
+{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#e-mail, #password, #repeat-password
+{
+    height: 20px;
+    display: flex;
+}
+#e-mail
+{
+    width: 310px;
+}
+#submit
+{
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    margin-bottom: 25px;
+    height: 30px;
+    background-color: #ffdf7f;
+}

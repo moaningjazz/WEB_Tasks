@@ -1,0 +1,23 @@
+.menu
+{
+    width: 200px;
+    background-color: #f9e497;
+    border-radius: 5%;
+    border-color: #989898;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 5px 5px #880000;
+    
+}
+.non-mark-list
+{
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.non-mark-list>li
+{
+    color: #880000;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
